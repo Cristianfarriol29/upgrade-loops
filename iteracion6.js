@@ -11,7 +11,9 @@ const toys = [
 
 
         if (!toyWithCat.name.includes("gato")){
-            console.log(toyWithCat)
+            toys.splice(toys.indexOf(toyWithCat))
         }
 
     }
+
+    console.log(toys)
